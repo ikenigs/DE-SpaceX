@@ -8,7 +8,7 @@ schema = {
         'net': {'type': 'boolean'},
         'window': {'type': ['number', 'null']},
         'rocket': {'type': 'string'},
-        'success': {'type': ['boolean', 'null']},
+        'success': {'type': ["boolean", "number", "varchar", "null"]},
         'failures': {'type': ['array', 'null']},
         'details': {'type': ['string', 'null']},
         'crew': {'type': ['array', 'null']},
