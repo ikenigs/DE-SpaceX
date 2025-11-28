@@ -1,16 +1,43 @@
-# Virtual environments
+# ---- Python venv ----
 venv/
+.env/
+*.env
 
-# Python cache
+# ---- Credentials and configs ----
+config.json
+*.json.secret
+*.key
+*.pem
+*.p12
+*.token
+secrets/
+credentials/
+
+# ---- Snowflake / Singer temp files ----
+state.json
+*.sqlite
+*.db
+*.log
+*.tmp
+.snowflake/
+.singer/
+
+# ---- Python cache ----
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
+# ---- VS Code ----
 .vscode/
+*.code-workspace
 
-# Data
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Data outputs ----
+output.json
+*.csv
+*.parquet
 data/
-logs/
