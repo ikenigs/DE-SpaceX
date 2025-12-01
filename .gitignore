@@ -3,16 +3,16 @@ target/
 dbt_packages/
 logs/
 
-# Python
+# python
 __pycache__/
 *.pyc
 
-# VSCode
+# VS Code
 .vscode/
 
-# Virtual environments
+# virtual envs
 venv/
 .env/
 
-# NEVER commit credentials
+# never commit credentials
 profiles.yml
